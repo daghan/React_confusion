@@ -12,13 +12,6 @@ class Menu extends Component {
         }
     }
 
-    // onDishSelect(item) {
-    //     this.setState({ selectedDish: item});
-    // }
-
-    renderDish(dish) {
-        return( <DishDetail dish={this.state.selectedDish} />);
-    }
 
     render() {
         const menu = this.props.dishes.map((item) => {
